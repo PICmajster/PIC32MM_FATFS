@@ -43,7 +43,7 @@ WORD AccFiles, AccDirs;
 FILINFO Finfo;
 FATFS FatFs;		/* File system object */
 FIL File[2];	    /* File objects */
-TCHAR Buff[16];		/* Working buffer */
+TCHAR Buff[128];		/* Working buffer */
 
 
 volatile UINT Timer;	/* 1kHz increment timer */
